@@ -10,14 +10,14 @@ int main() {
     printf("가위바위보 토너먼트\n");
     printf("[대진표]\n");
     printf("8강\n");
-    printf("[1] 플레이어 VS [2] 철수\n");
-    printf("[3] 영희 VS [4] 민준\n");
-    printf("[5] 지아 VS [6] 현우\n");
-    printf("[7] 수빈 VS [8] 태양\n");
+    printf("[1] 플레이어 VS [2] 메시\n");
+    printf("[3] 호날두 VS [4] 네이마르\n");
+    printf("[5] 음바페 VS [6] 홀란\n");
+    printf("[7] 마라도나 VS [8] 펠레\n");
     printf("당신은 [1] 플레이어입니다.\n\n");
 
     // 라운드별 상대 이름 및 라운드 이름 설정
-    char* opponents[3] = {"철수", "민준", "태양"};
+    char* opponents[3] = {"메시", "네이마르", "펠레"};
     char* rounds[3] = {"8강", "4강", "결승"};
 
     // 2. 토너먼트 시작 (총 3번 이기면 우승)
